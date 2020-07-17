@@ -2,11 +2,66 @@
 <html>              
 <head>
     <title>Google</title>
+
+    <style>
+        #logo-center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20%;
+           }
+        
+        .wrapper {
+            display: flex;
+            width: 70%;
+            min-width: 100px;           
+            position: relative;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        .search-icon {
+            position: absolute;
+            top: 13px;
+            left: 8px;  
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .clear-icon {
+            position: absolute; 
+            top: 13px;   
+            right: 8px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .search {
+            border: 1px solid #dfe1e5;
+            border-radius: 20px;
+            height: 40px;
+            width: 100%;
+            padding: 2px 23px 2px 30px;
+            outline: 0;        
+        }
+
+    </style>
 </head>
 
 <body>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-<input type="text" placeholder="">
+
+
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" id="logo-center">
+
+<div class="wrapper">
+<img class="search-icon" src="https://img.icons8.com/carbon-copy/100/000000/google-web-search.png" alt="search icon">
+<input class="search" placeholder="" type="text">
+<img class="clear-icon" src="https://img.icons8.com/material-two-tone/24/000000/clear-symbol.png" alt="clear-icon"> 
+</div>
 </body>
 
 </html
