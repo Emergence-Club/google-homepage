@@ -81,11 +81,8 @@ ul {
 
 /*Search Buttons*/
 .bWrapper {
-    position: fixed;
-    top: 50%;
-    left: 45%;
-    margin-top: -60px;
-    margin-left: -100px;
+    text-align: center;
+    margin-top: 10px;
 }
 .searchButton{
     text-decoration: none;
@@ -108,7 +105,7 @@ ul {
 
 
 .altLang p{
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
     font-size: small;
 }
